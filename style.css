@@ -1,0 +1,73 @@
+/*Whole Page styles*/
+html{
+    padding: 1rem;
+    margin: 0;
+    min-height: 100vh;
+    background-image: linear-gradient(45deg, rgba(255, 0, 0, 1), rgba(0, 0, 255, 1));
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+/*Classes*/
+.section{
+    width: calc(100vw - 5rem);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(200, 200, 200, 1);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.section:hover{
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+/*Header styles*/
+header {
+    display: table;
+    height: 75vh;
+    overflow: hidden;
+    text-align: center;
+    font-size: 7.5vw;
+}
+
+h1{
+    margin-top: calc(25vh - 2rem);
+    margin-bottom: calc(25vh - 2rem);
+}
+
+h1:hover{
+    color: rgba(100, 100, 100, 1);
+}
+
+@media (min-width: 1750px) {
+    header{
+        font-size: 8.3rem;
+    }
+}
+
+/*Navigation Bar styles*/
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Nav-Icon{
+    color: rgba(200, 200, 200, 1);
+    font-size: 2rem;
+}
+
+.Nav-Icon:hover{
+    color: rgba(100, 100, 100, 1);
+}
+
+/*Main Content styles*/
+main {
+}
+
+
+/*Footer styles*/
+footer{
+    text-align: center;
+}
