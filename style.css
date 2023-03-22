@@ -1,0 +1,78 @@
+/*Colour Scheme
+    colour-1: rgb(18, 115, 105);
+    colour-2: rgb(16, 64, 59);
+    colour-3: rgb(138, 166, 163);
+    colour-4: rgb(76, 89, 88);
+    colour-5: rgb(191, 191, 191);
+*/
+
+/* Import fonts from google fonts: 
+    Bungee Inline(regular 400),
+    Bungee Outline(regular 400),
+    Bungee Shade(regular 400),
+    Stick No Bills(ExtraLight 200, Light 300, Regular 400, Medium 500, SemiBold 600, Bold 700, ExtraBold 800),
+    Concert One(regular 400)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Outline&family=Bungee+Shade&family=Concert+One&family=Stick+No+Bills:wght@200;300;400;500;600;700;800&display=swap');
+
+
+:root {
+    --background: rgba(18, 115, 105, 1);
+    --section: rgba(16, 64, 59, 0.5);
+    --section-hover: rgba(16, 64, 59, 1);
+    --text: rgb(191, 191, 191);
+    --text-hover: rgb(76, 89, 88);
+}
+
+html{
+    background-color: var(--background);
+}
+
+.section{
+    background-color: var(--section);
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    min-height: 50px;
+}
+
+.section:hover{
+    background-color: var(--section-hover);
+}
+
+header{
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'bungee shade', 'stick no bills', 'concert one', cursive;
+    font-weight: 800;
+    font-size: clamp(30px, 9.5vw, 25vh);
+    color: var(--text);
+    margin-top: 15px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    line-height: 1;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+nav a{
+    color: var(--text);
+    font-size: 35px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: var(--text-hover);
+}
+
+nav ion-icon{
+    transform: translate3d(-2px, 5px, 0);
+}
