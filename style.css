@@ -17,11 +17,11 @@
 
 
 :root {
-    --background: rgba(18, 115, 105, 1);
-    --section: rgba(16, 64, 59, 0.5);
-    --section-hover: rgba(16, 64, 59, 1);
-    --text: rgb(191, 191, 191);
-    --text-hover: rgb(76, 89, 88);
+    --background: rgba(18, 115, 105, 1); /* Hex Value: #127369*/
+    --section: rgba(16, 64, 59, 0.5); /* Hex Value: #127369             HELP ME*/
+    --section-hover: rgba(16, 64, 59, 1); /* Hex Value: #10403B*/
+    --text: rgb(255, 255, 255); /* Hex Value: #FFFFFF*/
+    --text-hover: rgb(155, 155, 155); /* Hex Value: #127369     And me*/
 }
 
 html{
