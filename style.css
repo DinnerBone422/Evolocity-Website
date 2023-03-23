@@ -76,3 +76,7 @@ nav a:hover{
 nav ion-icon{
     transform: translate3d(-2px, 5px, 0);
 }
+
+#page1 a, #page1 header h1{
+    color: #DDDDDD !important;
+}
