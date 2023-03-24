@@ -22,6 +22,8 @@
     --section-hover: rgba(16, 64, 59, 1); /* Hex Value: #10403B*/
     --text: rgba(255, 255, 255, 1); /* Hex Value: #FFFFFF*/
     --text-hover: rgba(192, 192, 192, 1); /* Hex Value: #C0C0C0*/
+    --link: rgba(192, 192, 192, 1); /* Hex Value: #C0C0C0*/
+    --link-hover: rgba(255, 255, 255, 1); /* Hex Value: #FFFFFF*/
 }
 
 html{
