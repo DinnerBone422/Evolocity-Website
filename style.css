@@ -18,10 +18,23 @@
 
 :root {
     --background: rgba(18, 115, 105, 1); /* Hex Value: #127369*/
-    --section: rgba(16, 64, 59, 0.5); /* Hex Value: #127369             HELP ME*/
+    --section: rgba(16, 64, 59, 0.5); /* Hex Value: #115952*/
     --section-hover: rgba(16, 64, 59, 1); /* Hex Value: #10403B*/
     --text: rgb(255, 255, 255); /* Hex Value: #FFFFFF*/
     --text-hover: rgb(155, 155, 155); /* Hex Value: #127369     And me*/
+    /*
+    AA values:
+    FFFFFF:
+    C0C0C0:
+    AAA Values:
+    FFFFFF:
+    EEEEEE:
+    
+    
+    
+    
+    
+    */
 }
 
 html{
