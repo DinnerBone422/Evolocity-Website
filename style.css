@@ -20,21 +20,8 @@
     --background: rgba(18, 115, 105, 1); /* Hex Value: #127369*/
     --section: rgba(16, 64, 59, 0.5); /* Hex Value: #115952*/
     --section-hover: rgba(16, 64, 59, 1); /* Hex Value: #10403B*/
-    --text: rgb(255, 255, 255); /* Hex Value: #FFFFFF*/
-    --text-hover: rgb(155, 155, 155); /* Hex Value: #127369     And me*/
-    /*
-    AA values:
-    FFFFFF:
-    C0C0C0:
-    AAA Values:
-    FFFFFF:
-    EEEEEE:
-    
-    
-    
-    
-    
-    */
+    --text: rgba(255, 255, 255, 1); /* Hex Value: #FFFFFF*/
+    --text-hover: rgba(192, 192, 192, 1); /* Hex Value: #C0C0C0*/
 }
 
 html{
@@ -88,8 +75,4 @@ nav a:hover{
 
 nav ion-icon{
     transform: translate3d(-2px, 5px, 0);
-}
-
-#page1 a, #page1 header h1{
-    color: #DDDDDD !important;
 }
