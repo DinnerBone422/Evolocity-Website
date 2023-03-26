@@ -1,9 +1,20 @@
+/* Import fonts from google fonts: 
+    Bungee Inline(regular 400),
+    Bungee Outline(regular 400),
+    Bungee Shade(regular 400),
+    Stick No Bills(ExtraLight 200, Light 300, Regular 400, Medium 500, SemiBold 600, Bold 700, ExtraBold 800),
+    Concert One(regular 400)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Inline&family=Bungee+Outline&family=Bungee+Shade&family=Concert+One&family=Stick+No+Bills:wght@200&display=swap');
+
+
 /*Colour Scheme
-    colour-1: rgb(18, 115, 105);
-    colour-2: rgb(16, 64, 59);
-    colour-3: rgb(138, 166, 163);
-    colour-4: rgb(76, 89, 88);
-    colour-5: rgb(191, 191, 191);
+    colour-1: #127369;
+    colour-2: #10403b;
+    colour-3: #8aa6a3;
+    colour-4: #4c5958;
+    colour-5: #bfbfbf;
 */
 
 :root {
@@ -16,19 +27,11 @@
     --link-hover: rgba(255, 255, 255, 1);   /*Hex Value: #FFFFFF*/
 }
 
-/* Import fonts from google fonts: 
-    Bungee Inline(regular 400),
-    Bungee Outline(regular 400),
-    Bungee Shade(regular 400),
-    Stick No Bills(ExtraLight 200, Light 300, Regular 400, Medium 500, SemiBold 600, Bold 700, ExtraBold 800),
-    Concert One(regular 400)
-*/
-@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Inline&family=Bungee+Outline&family=Bungee+Shade&family=Concert+One&family=Stick+No+Bills:wght@200&display=swap');
-
 
 html{
     background-color: var(--background);
 }
+
 
 .section{
     background-color: var(--section);
@@ -41,6 +44,7 @@ html{
 .section:hover{
     background-color: var(--section-hover);
 }
+
 
 header{
     display: grid;
@@ -57,6 +61,7 @@ header h1 {
     margin-bottom: 30px;
     overflow: hidden;
 }
+
 
 nav{
     display: flex;
