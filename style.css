@@ -23,10 +23,12 @@
     --section-hover: rgba(16, 64, 59, 1);   /*Hex Value: #10403B*/
     --text: rgba(255, 255, 255, 1);         /*Hex Value: #FFFFFF*/
     --text-hover: rgba(192, 192, 192, 1);   /*Hex Value: #C0C0C0*/
-    --link: rgba(192, 192, 192, 1);         /*Hex Value: #C0C0C0*/
-    --link-hover: rgba(255, 255, 255, 1);   /*Hex Value: #FFFFFF*/
 }
 
+*, html, body{
+    margin: 0;
+    padding: 0;
+}
 
 html{
     background-color: var(--background);
@@ -62,7 +64,6 @@ header h1 {
     overflow: hidden;
 }
 
-
 nav{
     display: flex;
     flex-wrap: wrap;
@@ -81,4 +82,9 @@ nav a:hover{
 
 nav ion-icon{
     transform: translate3d(-2px, 5px, 0);
+}
+
+#img1{
+    width: calc(100% - 30px);
+    height: auto;
 }
