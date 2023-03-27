@@ -25,13 +25,11 @@
     --text-hover: rgba(192, 192, 192, 1);   /*Hex Value: #C0C0C0*/
 }
 
-*, html, body{
-    margin: 0;
-    padding: 0;
-}
+
 
 html{
     background-color: var(--background);
+    overflow-x: hidden;
 }
 
 
@@ -85,6 +83,6 @@ nav ion-icon{
 }
 
 #img1{
-    width: calc(100% - 30px);
+    width: calc(100% - 40px);
     height: auto;
 }
