@@ -1,4 +1,6 @@
-/* Import fonts from google fonts: 
+/* Import fonts from google fonts:
+    Anton (regular 400),
+    Bebas Neue (regular 400),
     Bungee Inline(regular 400),
     Bungee Outline(regular 400),
     Bungee Shade(regular 400),
@@ -6,7 +8,7 @@
     Concert One(regular 400)
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Inline&family=Bungee+Outline&family=Bungee+Shade&family=Concert+One&family=Stick+No+Bills:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Bungee&family=Bungee+Inline&family=Bungee+Outline&family=Bungee+Shade&family=Concert+One&family=Stick+No+Bills:wght@200&display=swap');
 
 
 /*Colour Scheme
@@ -43,7 +45,6 @@ h1{
 }
 
 p{
-    font-family: 'Bungee outline', 'stick no bills', cursive;
     font-weight: 800;
     font-size: 1rem;
     color: var(--text);
@@ -101,4 +102,11 @@ nav ion-icon{
 #img1{
     width: calc(100% - 40px);
     height: auto;
+}
+
+@media only screen and (min-width: 550px) {
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
