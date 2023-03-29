@@ -110,3 +110,12 @@ nav ion-icon{
         grid-template-columns: 1fr 1fr;
     }
 }
+
+#footer-links{
+    text-align: center;
+}
+
+#the-top-half{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
