@@ -32,6 +32,22 @@ html{
     overflow-x: hidden;
 }
 
+h1{
+    font-family: 'Bungee Shade', 'stick no bills', 'concert one', cursive;
+    font-weight: 800;
+    font-size: 2rem;
+    color: var(--text);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    overflow: hidden;
+}
+
+p{
+    font-family: 'Bungee outline', 'stick no bills', cursive;
+    font-weight: 800;
+    font-size: 1rem;
+    color: var(--text);
+}
 
 .section{
     background-color: var(--section);
@@ -54,7 +70,7 @@ header{
 
 header h1 {
     font-family: 'Bungee Shade', 'stick no bills', 'concert one', cursive;
-    /*font-weight: 800;*/
+    font-weight: 800;
     font-size: clamp(30px, 9.5vw, 25vh);
     color: var(--text);
     margin-top: 15px;
