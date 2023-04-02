@@ -23,6 +23,8 @@
     --background: rgba(18, 115, 105, 1);    /*Hex Value: #127369*/
     --section: rgba(16, 64, 59, 0.5);       /*Hex Value: #115952*/
     --section-hover: rgba(16, 64, 59, 1);   /*Hex Value: #10403B*/
+    --section-Lighter: rgba(16, 64, 59, 0.5);       /*Hex Value: #115952*/
+    --section-lighter-hover: rgba(16, 64, 59, 1);   /*Hex Value: #10403B*/
     --text: rgba(255, 255, 255, 1);         /*Hex Value: #FFFFFF*/
     --text-hover: rgba(192, 192, 192, 1);   /*Hex Value: #C0C0C0*/
 }
@@ -109,6 +111,14 @@ nav ion-icon{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+}
+
+footer:hover{
+    background-color: var(--section) !important;
+}
+
+.contact-feild:hover{
+    background-color: var(--section-darker);
 }
 
 #footer-links{
