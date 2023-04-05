@@ -39,16 +39,17 @@ html{
 h1{
     font-family: 'Bungee Shade', 'stick no bills', 'concert one', cursive;
     font-weight: 800;
-    font-size: 2rem;
+    font-size: 2.25rem;
     color: var(--text);
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: -15px;
+    margin-bottom: -25px;
     overflow: hidden;
 }
 
 p{
     font-weight: 800;
-    font-size: 1rem;
+    margin: 5px;
+    font-size: 1.25rem;
     color: var(--text);
 }
 
@@ -56,7 +57,7 @@ p{
     background-color: var(--section);
     border-radius: 15px;
     margin: 10px;
-    padding: 10px;
+    padding: 10px 20px;
     min-height: 50px;
 }
 
@@ -106,19 +107,16 @@ nav ion-icon{
     height: auto;
 }
 
+footer:hover{
+    background-color: var(--section) !important;
+    padding: 10px 10px !important;
+}
+
 @media only screen and (min-width: 550px) {
     footer{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-}
-
-footer:hover{
-    background-color: var(--section) !important;
-}
-
-.contact-feild:hover{
-    background-color: var(--section-darker);
 }
 
 #footer-links{
