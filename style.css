@@ -40,9 +40,10 @@ h1{
     font-family: 'Bungee Shade', 'stick no bills', 'concert one', cursive;
     font-weight: 800;
     font-size: 2.25rem;
+    line-height: 1;
+    margin-top: 5px;
+    margin-bottom: 10px;
     color: var(--text);
-    margin-top: -15px;
-    margin-bottom: -25px;
     overflow: hidden;
 }
 
@@ -107,9 +108,12 @@ nav ion-icon{
     height: auto;
 }
 
+footer{
+    padding: 10px 10px !important;
+}
+
 footer:hover{
     background-color: var(--section) !important;
-    padding: 10px 10px !important;
 }
 
 @media only screen and (min-width: 550px) {
