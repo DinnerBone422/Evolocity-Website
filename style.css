@@ -1,41 +1,27 @@
-/* Import fonts from google fonts:
-    Anton (regular 400),
-    Bebas Neue (regular 400),
-    Bungee Inline(regular 400),
-    Bungee Outline(regular 400),
-    Bungee Shade(regular 400),
-    Stick No Bills(ExtraLight 200, Light 300, Regular 400, Medium 500, SemiBold 600, Bold 700, ExtraBold 800),
-    Concert One(regular 400)
-*/
-
+/*Import Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Bungee&family=Bungee+Inline&family=Bungee+Outline&family=Bungee+Shade&family=Concert+One&family=Stick+No+Bills:wght@200&display=swap');
 
-
-/*Colour Scheme
-    colour-1: #127369;
-    colour-2: #10403b;
-    colour-3: #8aa6a3;
-    colour-4: #4c5958;
-    colour-5: #bfbfbf;
-*/
-
+/*Variables*/
 :root {
-    --background: rgba(18, 115, 105, 1);    /*Hex Value: #127369*/
-    --section: rgba(16, 64, 59, 0.5);       /*Hex Value: #115952*/
-    --section-hover: rgba(16, 64, 59, 1);   /*Hex Value: #10403B*/
-    --section-Lighter: rgba(16, 64, 59, 0.5);       /*Hex Value: #115952*/
-    --section-lighter-hover: rgba(16, 64, 59, 1);   /*Hex Value: #10403B*/
-    --text: rgba(255, 255, 255, 1);         /*Hex Value: #FFFFFF*/
-    --text-hover: rgba(192, 192, 192, 1);   /*Hex Value: #C0C0C0*/
+    /*Colors*/
+    --background: rgba(18, 115, 105, 1);
+    --section: rgba(16, 64, 59, 0.5);
+    --section-hover: rgba(16, 64, 59, 1);
+    --section-Lighter: rgba(16, 64, 59, 0.5);
+    --section-lighter-hover: rgba(16, 64, 59, 1);
+    --text: rgba(255, 255, 255, 1);
+    --text-hover: rgba(192, 192, 192, 1);
+    --link: rgba(192, 192, 192, 1);
+    --link-hover: rgba(255, 255, 255, 1);
 }
 
-
-
+/*Styles for entire document*/
 html{
     background-color: var(--background);
     overflow-x: hidden;
 }
 
+/*Styles for h1*/
 h1{
     font-family: 'Bungee Shade', 'stick no bills', 'concert one', cursive;
     font-weight: 800;
@@ -47,6 +33,8 @@ h1{
     overflow: hidden;
 }
 
+
+/*Styles for paragrahs*/
 p{
     font-weight: 800;
     margin: 5px;
@@ -54,6 +42,20 @@ p{
     color: var(--text);
 }
 
+
+/*Styles for Links*/
+a{
+    font-weight: 800;
+    font-size: 1.25rem;
+    color: var(--link);
+}
+
+a:hover{
+    color: var(--link-hover);
+}
+
+
+/*Styles for Sections*/
 .section{
     background-color: var(--section);
     border-radius: 15px;
@@ -67,6 +69,10 @@ p{
 }
 
 
+
+
+
+/*Styles for the header*/
 header{
     display: grid;
     place-content: center;
@@ -83,12 +89,15 @@ header h1 {
     overflow: hidden;
 }
 
+
+/*Styles for Navigation Bar*/
 nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
+/*Styles for Navigation Bar Buttons*/
 nav a{
     color: var(--text);
     font-size: 35px;
@@ -99,21 +108,30 @@ nav a:hover{
     color: var(--text-hover);
 }
 
+/*Styles for Navigation Bar Icons*/
 nav ion-icon{
     transform: translate3d(-2px, 5px, 0);
 }
 
-#img1{
-    width: calc(100% - 40px);
-    height: auto;
-}
 
+/*Styles for the Footer*/
 footer{
     padding: 10px 10px !important;
 }
 
 footer:hover{
     background-color: var(--section) !important;
+}
+
+/*Styles for Footer Links*/
+footer a{
+    color: var(--link);
+    font-size: 2rem;
+}
+
+footer a:hover{
+    color: var(--link-hover);
+    font-size: 2rem;
 }
 
 @media only screen and (min-width: 550px) {
@@ -123,11 +141,14 @@ footer:hover{
     }
 }
 
-#footer-links{
+#footer-Contact-US{
     text-align: center;
+    color:red;
 }
 
-#the-top-half{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+
+/*Styles for Image 1*/
+#img1{
+    width: calc(100% - 40px);
+    height: auto;
 }
