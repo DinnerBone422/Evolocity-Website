@@ -21,6 +21,8 @@ html{
     overflow-x: hidden;
 }
 
+
+/*Styles for Text*/
 /*Styles for h1*/
 h1{
     font-family: 'Bungee Shade', 'stick no bills', 'concert one', cursive;
@@ -33,7 +35,6 @@ h1{
     overflow: hidden;
 }
 
-
 /*Styles for paragrahs*/
 p{
     font-weight: 800;
@@ -41,7 +42,6 @@ p{
     font-size: 1.25rem;
     color: var(--text);
 }
-
 
 /*Styles for Links*/
 a{
@@ -67,9 +67,6 @@ a:hover{
 .section:hover{
     background-color: var(--section-hover);
 }
-
-
-
 
 
 /*Styles for the header*/
@@ -123,7 +120,7 @@ footer:hover{
     background-color: var(--section) !important;
 }
 
-/*Styles for Footer Links*/
+/*Styles for Footer Buttons*/
 footer a{
     color: var(--link);
     font-size: 2rem;
@@ -134,6 +131,7 @@ footer a:hover{
     font-size: 2rem;
 }
 
+/*Styles for keeping the two parts of the Footer beside eachother on large screens and one above the other on smaller screens*/
 @media only screen and (min-width: 550px) {
     footer{
         display: grid;
@@ -141,7 +139,8 @@ footer a:hover{
     }
 }
 
-#footer-Contact-US{
+/*Styles for Footer Contact Us section*/
+#footer-Contact-Us{
     text-align: center;
     color:red;
 }
