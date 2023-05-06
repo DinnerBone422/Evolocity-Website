@@ -22,6 +22,19 @@ html{
 }
 
 
+/*Flex*/
+/*Flex Container*/
+.flex-continer{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Flex Child*/
+.flex-child{
+    
+}
+
+
 /*Styles for Text*/
 /*Styles for h1*/
 h1{
