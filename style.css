@@ -41,9 +41,20 @@ html{
 h1{
     font-family: 'Bungee Shade', 'stick no bills', 'concert one', cursive;
     font-weight: 800;
-    font-size: 2.25rem;
+    font-size: 2.5rem;
     line-height: 1;
     margin-top: 5px;
+    margin-bottom: 10px;
+    color: var(--text);
+    overflow: hidden;
+}
+
+h2{
+    font-family: 'Bungee Shade', 'stick no bills', 'concert one', cursive;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1;
+    margin-top: 15px;
     margin-bottom: 10px;
     color: var(--text);
     overflow: hidden;
@@ -162,8 +173,8 @@ footer h1{
 }
 
 
-/*Styles for Image 1*/
-#img1{
-    width: calc(100% - 40px);
+/*Styles for Images*/
+.img{
+    width: calc(100% - 60px);
     height: auto;
 }
