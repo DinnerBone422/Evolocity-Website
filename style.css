@@ -54,26 +54,27 @@ h2{
     font-weight: 800;
     font-size: 2rem;
     line-height: 1;
-    margin-top: 15px;
-    margin-bottom: 0px;
+    margin-top: 20px;
+    margin-bottom: -5px;
     color: var(--text);
     overflow: hidden;
 }
 
 h3{
     font-weight: 800;
-    margin: 5px;
+    line-height: 1;
     margin-top: 17.25px;
-    margin-bottom: -5px;
+    margin-bottom: -15px;
     font-size: 1.75rem;
     color: var(--text);
 }
 
 /*Styles for paragrahs*/
 p{
+    line-height: 1.125;
     font-weight: 800;
-    margin: 5px;
     font-size: 1.25rem;
+    margin-bottom: 0px;
     color: var(--text);
 }
 
