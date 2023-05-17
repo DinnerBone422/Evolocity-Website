@@ -162,6 +162,12 @@ footer:hover{
 footer a{
     color: var(--link);
     font-size: 2rem;
+    width: 0.0025px;
+}
+
+.icon{
+    color: var(--link);
+    width: 2.25rem;
 }
 
 footer a:hover{
