@@ -129,6 +129,12 @@ nav{
     justify-content: space-around;
 }
 
+nav .section{
+    display: flex;
+    flex-grow: 1;
+    
+}
+
 /*Styles for Navigation Bar Buttons*/
 nav a{
     color: var(--text);
@@ -193,4 +199,6 @@ footer h1{
 .img{
     width: calc(100% - 60px);
     height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
