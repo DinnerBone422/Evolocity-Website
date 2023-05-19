@@ -132,7 +132,6 @@ nav{
 nav .section{
     display: flex;
     flex-grow: 1;
-    
 }
 
 /*Styles for Navigation Bar Buttons*/
@@ -140,6 +139,8 @@ nav a{
     color: var(--text);
     font-size: 35px;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
 }
 
 nav a:hover{
@@ -153,6 +154,12 @@ nav ion-icon{
 
 .active-tab{
     color: var(--active-tab);
+    background-color: var(--section-hover);
+}
+
+.active-tab:hover{
+    color: var(--active-tab);
+    background-color: var(--section);
 }
 
 /*Styles for the Footer*/
