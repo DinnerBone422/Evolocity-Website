@@ -26,13 +26,12 @@ html{
 /*Flex*/
 /*Flex Container*/
 .flex-continer{
-    display: flex;
-    justify-content: space-around;
+    text-align: center;
 }
 
 /*Flex Child*/
 .flex-child{
-    
+
 }
 
 
@@ -89,6 +88,9 @@ a:hover{
     color: var(--link-hover);
 }
 
+ion-icon{
+    pointer-events: none;
+}
 
 /*Styles for Sections*/
 .section{
@@ -114,7 +116,7 @@ header{
 header h1 {
     font-family: 'Bungee Shade', 'stick no bills', 'concert one', cursive;
     font-weight: 800;
-    font-size: clamp(30px, 9.5vw, 25vh);
+    font-size: clamp(30px, 9.5vw, 25vh); /*Keep the title within the screen*/
     color: var(--text);
     margin-top: 15px;
     margin-bottom: 30px;
@@ -149,7 +151,7 @@ nav a:hover{
 
 /*Styles for Navigation Bar Icons*/
 nav ion-icon{
-    transform: translate3d(-2px, 5px, 0);
+    transform: translate3d(-5px, 1px, 0);
 }
 
 .active-tab{
@@ -173,14 +175,10 @@ footer:hover{
 
 /*Styles for Footer Buttons*/
 footer a{
+    
     color: var(--link);
     font-size: 2rem;
     width: 0.0025px;
-}
-
-.icon{
-    color: var(--link);
-    width: 2.25rem;
 }
 
 footer a:hover{
@@ -189,7 +187,7 @@ footer a:hover{
 }
 
 /*Styles for keeping the two parts of the Footer beside eachother on large screens and one above the other on smaller screens*/
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 644px) {
     footer{
         display: grid;
         grid-template-columns: 1fr 1fr;
