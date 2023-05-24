@@ -53,7 +53,7 @@ h2{
     font-weight: 800;
     font-size: 2rem;
     line-height: 1;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: -5px;
     color: var(--text);
     overflow: hidden;
@@ -162,6 +162,15 @@ nav ion-icon{
 .active-tab:hover{
     color: var(--active-tab);
     background-color: var(--section);
+}
+
+/*Styles for the Main content on the page (body tag)*/
+/*keeping the Image and the Text on the page side by side when the screen is large enough and on top of each other on smaller displays*/
+@media only screen and (min-width: 1200px) {
+    .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 /*Styles for the Footer*/
