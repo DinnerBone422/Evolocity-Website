@@ -22,19 +22,6 @@ html{
     overflow-x: hidden;
 }
 
-
-/*Flex*/
-/*Flex Container*/
-.flex-continer{
-    text-align: center;
-}
-
-/*Flex Child*/
-.flex-child{
-    
-}
-
-
 /*Styles for Text*/
 /*Styles for h1*/
 h1{
@@ -87,7 +74,7 @@ a{
 a:hover{
     color: var(--link-hover);
 }
-
+/*Styles for Icons*/
 ion-icon{
     pointer-events: none;
 }
@@ -164,13 +151,21 @@ nav ion-icon{
     background-color: var(--section);
 }
 
-/*Styles for the Main content on the page (body tag)*/
+/*Styles for the Main content on the page*/
 /*keeping the Image and the Text on the page side by side when the screen is large enough and on top of each other on smaller displays*/
 @media only screen and (min-width: 1200px) {
     .content {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+}
+
+/*Styles for Images*/
+.img{
+    width: calc(100% - 60px);
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /*Styles for the Footer*/
@@ -206,13 +201,4 @@ footer a:hover{
 /*Styles for Footer Contact Us section*/
 footer h1{
     text-align: center;
-}
-
-
-/*Styles for Images*/
-.img{
-    width: calc(100% - 60px);
-    height: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
