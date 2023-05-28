@@ -1,5 +1,6 @@
+/* #region Styles for the entire document*/
 /*Import Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Bungee&family=Bungee+Inline&family=Bungee+Outline&family=Bungee+Shade&family=Concert+One&family=Stick+No+Bills:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Concert+One&family=Stick+No+Bills:wght@200&display=swap');
 
 /*Variables*/
 :root {
@@ -16,15 +17,13 @@
     --active-tab: rgba(175, 175, 175, 1);
 }
 
-/*Styles for entire document*/
-html{
+html {
     background-color: var(--background);
     overflow-x: hidden;
 }
-
-/*Styles for Text*/
-/*Styles for h1*/
-h1{
+/*#endregion*/
+/* #region Styles for headers*/
+h1 {
     font-family: 'Bungee Shade', 'stick no bills', 'concert one', cursive;
     font-weight: 800;
     font-size: 2.25rem;
@@ -35,7 +34,7 @@ h1{
     overflow: hidden;
 }
 
-h2{
+h2 {
     font-family: 'Bungee Shade', 'stick no bills', 'concert one', cursive;
     font-weight: 800;
     font-size: 2rem;
@@ -46,7 +45,7 @@ h2{
     overflow: hidden;
 }
 
-h3{
+h3 {
     font-weight: 800;
     line-height: 1;
     margin-top: 17.25px;
@@ -54,33 +53,34 @@ h3{
     font-size: 1.75rem;
     color: var(--text);
 }
-
-/*Styles for paragrahs*/
-p{
+/*#endregion*/
+/* #region Styles for the Text*/
+p {
     line-height: 1.125;
     font-weight: 800;
     font-size: 1.25rem;
     margin-bottom: 0px;
     color: var(--text);
 }
-
-/*Styles for Links*/
-a{
+/* #endregion */
+/* #region Styles for the Links*/
+a {
     font-weight: 800;
     font-size: 1.25rem;
     color: var(--link);
 }
 
-a:hover{
+a:hover {
     color: var(--link-hover);
 }
-/*Styles for Icons*/
-ion-icon{
+/* #endregion */
+/* #region Styles for the Icons*/
+ion-icon {
     pointer-events: none;
 }
-
-/*Styles for Sections*/
-.section{
+/*#endregion*/
+/* #region Styles for the Sections*/
+.section {
     background-color: var(--section);
     border-radius: 15px;
     margin: 10px;
@@ -88,13 +88,12 @@ ion-icon{
     min-height: 50px;
 }
 
-.section:hover{
+.section:hover {
     background-color: var(--section-hover);
 }
-
-
-/*Styles for the header*/
-header{
+/*#endregion*/
+/* #region Styles for the header*/
+header {
     display: grid;
     place-content: center;
     text-align: center;
@@ -109,22 +108,20 @@ header h1 {
     margin-bottom: 30px;
     overflow: hidden;
 }
-
-
-/*Styles for Navigation Bar*/
-nav{
+/*#endregion*/
+/* #region Styles for the Navigation Bar*/
+nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-nav .section{
+nav .section {
     display: flex;
     flex-grow: 1;
 }
 
-/*Styles for Navigation Bar Buttons*/
-nav a{
+nav a {
     color: var(--text);
     font-size: 35px;
     text-decoration: none;
@@ -132,26 +129,25 @@ nav a{
     justify-content: center;
 }
 
-nav a:hover{
+nav a:hover {
     color: var(--text-hover);
 }
 
-/*Styles for Navigation Bar Icons*/
-nav ion-icon{
+nav ion-icon {
     transform: translate3d(-5px, 1px, 0);
 }
 
-.active-tab{
+.active-tab {
     color: var(--active-tab);
     background-color: var(--section-hover);
 }
 
-.active-tab:hover{
+.active-tab:hover {
     color: var(--active-tab);
     background-color: var(--section);
 }
-
-/*Styles for the Main content on the page*/
+/*#endregion*/
+/* #region Styles for the Images and Text*/
 /*keeping the Image and the Text on the page side by side when the screen is large enough and on top of each other on smaller displays*/
 @media only screen and (min-width: 1200px) {
     .content {
@@ -160,15 +156,14 @@ nav ion-icon{
     }
 }
 
-/*Styles for Images*/
 .img{
     width: calc(100% - 60px);
     height: auto;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
-/*Styles for the Footer*/
+/*#endregion*/
+/* #region Styles for the Footer*/
 footer{
     padding: 10px 10px !important;
 }
@@ -179,7 +174,6 @@ footer:hover{
 
 /*Styles for Footer Buttons*/
 footer a{
-    
     color: var(--link);
     font-size: 2rem;
     width: 0.0025px;
@@ -202,3 +196,4 @@ footer a:hover{
 footer h1{
     text-align: center;
 }
+/*#endregion*/
